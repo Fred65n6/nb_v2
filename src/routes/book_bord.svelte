@@ -23,6 +23,9 @@
 
 <section class="main">
 	<div class="book grid md:grid-cols-2">
+		<div class="image">
+			<img src="book_bord.webp" alt="mad fra nørrebrobryghus" />
+		</div>
 		<div class="mobil_img"><img src="book_bord.mobile.webp" alt="mad fra nørrebro bryghus" /></div>
 		<div class="">
 			<div class=" grid place-items-center gap-2 pt-12">
@@ -48,10 +51,6 @@
 					>
 				</div>
 			</div>
-		</div>
-
-		<div class="image">
-			<img src="book_bord.webp" alt="mad fra nørrebrobryghus" />
 		</div>
 	</div>
 </section>
@@ -103,7 +102,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/aftenmenu.webp');
-		/* background-image: url('aftenmenu.webp'); */
+		background-image: url('aftenmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -112,7 +111,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/frokostmenu.webp');
-		/* background-image: url('frokostmenu.webp'); */
+		background-image: url('frokostmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -121,7 +120,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/olsortiment.webp');
-		/* background-image: url('olsortiment.webp'); */
+		background-image: url('olsortiment.webp');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding: 1rem;
@@ -166,6 +165,7 @@
 
 		.image {
 			width: 55rem;
+			transform: scaleX(-1);
 		}
 
 		.mobil_img {

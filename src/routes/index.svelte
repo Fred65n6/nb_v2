@@ -107,7 +107,7 @@
 		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -116,7 +116,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/bundle_4.webp');
-		/* background-image: url('bundle_4.webp'); */
+		background-image: url('bundle_4.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -125,7 +125,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -163,7 +163,7 @@
 			height: 40rem;
 			width: 100%;
 			background-image: url('../../static/red_bg.svg');
-			/* background-image: url('red_bg.svg'); */
+			background-image: url('red_bg.svg');
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
@@ -175,12 +175,12 @@
 		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {

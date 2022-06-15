@@ -25,7 +25,6 @@
 		--button-font-size: 1rem;
 		--button-line-height: 45px;
 	}
-
 	section {
 		display: grid;
 		place-items: center;
@@ -37,28 +36,28 @@
 		background: var(--body-bg-color);
 	}
 
-	a {
-		color: var(--default-black);
+	a:hover {
+		text-decoration: underline;
 	}
 
 	h1 {
 		font-family: var(--heading-and-button-font);
 		font-size: var(--h1-size-desktop);
-		color: var(--default-black);
+
 		text-transform: uppercase;
 	}
 
 	h2 {
 		font-family: var(--heading-and-button-font);
 		font-size: var(--h2-size-desktop);
-		color: var(--default-white);
+
 		text-transform: uppercase;
 	}
 
 	h3 {
 		font-family: var(--heading-and-button-font);
 		font-size: var(--h3-size-desktop);
-		color: var(--default-black);
+
 		text-transform: uppercase;
 	}
 

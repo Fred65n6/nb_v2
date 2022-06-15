@@ -430,10 +430,6 @@
 		font-family: 'Josefin Sans', sans-serif;
 	}
 
-	a:active {
-		text-decoration: underline;
-	}
-
 	.ikoner {
 		padding-top: 1rem;
 		margin-bottom: -2rem;
@@ -467,7 +463,7 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		color: black;
+
 		font-weight: 400;
 		font-size: 0.7rem;
 		text-transform: uppercase;
@@ -481,7 +477,7 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 2em;
-		color: black;
+
 		font-weight: 400;
 		font-size: 0.7rem;
 		text-transform: uppercase;
@@ -577,7 +573,7 @@
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		background-color: rgb(168, 212, 221);
+		background-color: rgb(167, 202, 222);
 		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 		transition-duration: 0.25s;
 	}

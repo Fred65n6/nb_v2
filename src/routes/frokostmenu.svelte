@@ -100,8 +100,4 @@
 	span {
 		font-style: italic;
 	}
-
-	h2 {
-		color: var(--default-black);
-	}
 </style>
