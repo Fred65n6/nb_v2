@@ -36,10 +36,6 @@
 		background: var(--body-bg-color);
 	}
 
-	a:hover {
-		text-decoration: underline;
-	}
-
 	h1 {
 		font-family: var(--heading-and-button-font);
 		font-size: var(--h1-size-desktop);

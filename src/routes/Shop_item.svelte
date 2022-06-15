@@ -44,7 +44,7 @@
 	.card,
 	h3,
 	p {
-		color: var(--default-black);
+		color: currentcolor;
 	}
 
 	img {

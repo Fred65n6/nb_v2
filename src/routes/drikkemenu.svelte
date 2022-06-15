@@ -198,6 +198,6 @@
 	}
 
 	h2 {
-		color: black;
+		color: currentcolor;
 	}
 </style>

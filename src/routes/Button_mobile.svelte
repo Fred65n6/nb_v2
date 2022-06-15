@@ -27,7 +27,7 @@
 		line-height: 45px;
 		text-align: center;
 		text-transform: uppercase;
-		color: var(--default-white);
+		color: currentcolor;
 		cursor: pointer;
 		overflow: hidden;
 		transition: 1s;
