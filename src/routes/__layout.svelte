@@ -3,24 +3,11 @@
 	import Toggle from './Darkmode.svelte';
 	import '../app.css';
 	import Footer from './Footer.svelte';
-	// import { onMount } from 'svelte';
-
-	// let isPageLoaded = false;
-
-	// onMount(() => {
-	// 	setTimeout(() => {
-	// 		isPageLoaded = true;
-	// 	}, 4000);
-	// });
 </script>
 
 <div class="toggle">
 	<Toggle>Dark/light mode</Toggle>
 </div>
-<!-- 
-{#if !isPageLoaded}
-	<div id="myDiv" class="loader"><img src="blomster4.gif" alt="loader" /></div>
-{/if} -->
 
 <main>
 	<slot />
@@ -60,17 +47,5 @@
 			top: 0;
 			right: 0;
 		}
-	}
-
-	.loader {
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		display: grid;
-		place-items: center;
-		z-index: 100;
-		background-color: white;
 	}
 </style>

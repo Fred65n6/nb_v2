@@ -1,13 +1,33 @@
-<script context="module">
+<script>
 	import Button from './Button_hero.svelte';
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
 	import Cookie from './Cookie_banner.svelte';
 	import Header from '$lib/header/Header.svelte';
+	import { afterNavigate } from '$app/navigation';
+	import { fade } from 'svelte/transition';
+
+	// hide by default
+	let visible = false;
+
+	let duration;
+
+	afterNavigate(({ from }) => {
+		// only animate if the navigation came from outside the page
+		duration = from === null ? 600 : 0;
+		// toggle visbility in any case
+		visible = true;
+	});
 </script>
 
 <Header />
+
+{#if !visible}
+	<div class="scale-up-center loader" in:fade={{ duration: 600 }}>
+		<img src="blomster4.gif" alt="" />
+	</div>
+{/if}
 
 <svelte:head>
 	<title>Forside</title>
@@ -94,6 +114,18 @@
 	.left {
 		width: 100%;
 		height: 100%;
+	}
+
+	.loader {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		display: grid;
+		place-items: center;
+		z-index: 100;
+		background-color: white;
 	}
 
 	.right {
