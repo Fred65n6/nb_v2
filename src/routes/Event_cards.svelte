@@ -11,12 +11,12 @@
 	export let name;
 </script>
 
-<div class="card">
-	<h3>{dato}</h3>
-	<img src={img} alt={name} />
-	<h2>{titel}</h2>
-	<p>{sub_titel}</p>
-	<p class="flex">
+<div itemscope itemtype="https://schema.org/Event" class="card">
+	<h3 itemprop="startDate">{dato}</h3>
+	<img itemprop="image" src={img} alt={name} />
+	<h2 itemprop="name">{titel}</h2>
+	<p itemprop="description">{sub_titel}</p>
+	<p itemprop="duration" class="flex">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -33,7 +33,7 @@
 			/></svg
 		>{tid}
 	</p>
-	<p class="flex text-center">
+	<p itemprop="location" class="flex text-center">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"

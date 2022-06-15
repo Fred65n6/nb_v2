@@ -115,7 +115,7 @@
 	</div>
 </section>
 
-<section class="kalender">
+<section itemscope itemtype="https://schema.org/SocialEvent" class="kalender">
 	<button on:click={() => getModalSmag().open()}>
 		<div class="event smag" data-name="smag">
 			<Event_card
