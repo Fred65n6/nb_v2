@@ -15,8 +15,9 @@
 
 	afterNavigate(({ from }) => {
 		// only animate if the navigation came from outside the page
-		duration = from === null ? 600 : 0;
+		duration = from === null ? 300 : 0;
 		// toggle visbility in any case
+
 		visible = true;
 	});
 </script>
@@ -24,7 +25,7 @@
 <Header />
 
 {#if !visible}
-	<div class="scale-up-center loader" in:fade={{ duration: 600 }}>
+	<div class="scale-up-center loader" in:fade={{ duration: 3000 }}>
 		<img src="blomster4.gif" alt="" />
 	</div>
 {/if}
