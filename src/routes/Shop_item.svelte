@@ -10,11 +10,11 @@
 	let count = 0;
 </script>
 
-<div class="card">
-	<img src={img} alt={name} />
-	<h3>{titel}</h3>
-	<p>{sub_titel}</p>
-	<h3>{pris}</h3>
+<div itemscope itemtype="https://schema.org/Product" class="card">
+	<img itemprop="image" src={img} alt={name} />
+	<h3 itemprop="name">{titel}</h3>
+	<p itemprop="size">{sub_titel}</p>
+	<h3 itemprop="price">{pris}</h3>
 	<div class="flex gap-4">
 		<button class="font-xl" on:click={() => (count -= 1)}>-</button>
 		<span class="bg-white px-4 border-2">{count}</span>

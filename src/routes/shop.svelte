@@ -160,7 +160,7 @@
 		<Search class="h-16 p-2 border-2" label="" placeholder="Prøv 'Hvedeøl'" />
 	</section>
 
-	<section class="shop">
+	<section itemscope itemtype="https://schema.org/ProductGroup" class="shop">
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="classic.webp"
