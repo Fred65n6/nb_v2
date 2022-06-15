@@ -58,12 +58,33 @@
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
-					<line x1="5.5" y1="46" x2="5.5" stroke="black" stroke-width="3" />
-					<line x1="18.5" y1="46" x2="18.5" stroke="black" stroke-width="3" />
-					<line x1="33.5" y1="46" x2="33.5" stroke="black" stroke-width="3" />
-					<circle cx="5" cy="32" r="3.5" fill="black" stroke="black" stroke-width="3" />
-					<circle cx="18" cy="13" r="3.5" fill="black" stroke="black" stroke-width="3" />
-					<circle cx="34" cy="24" r="3.5" fill="black" stroke="black" stroke-width="3" />
+					<line x1="5.5" y1="46" x2="5.5" stroke="currentcolor" stroke-width="3" />
+					<line x1="18.5" y1="46" x2="18.5" stroke="currentcolor" stroke-width="3" />
+					<line x1="33.5" y1="46" x2="33.5" stroke="currentcolor" stroke-width="3" />
+					<circle
+						cx="5"
+						cy="32"
+						r="3.5"
+						fill="currentcolor"
+						stroke="currentcolor"
+						stroke-width="3"
+					/>
+					<circle
+						cx="18"
+						cy="13"
+						r="3.5"
+						fill="currentcolor"
+						stroke="currentcolor"
+						stroke-width="3"
+					/>
+					<circle
+						cx="34"
+						cy="24"
+						r="3.5"
+						fill="currentcolor"
+						stroke="currentcolor"
+						stroke-width="3"
+					/>
 				</svg>FILTRER</button
 			>
 
@@ -289,7 +310,7 @@
 	}
 
 	.slider {
-		--sliderPrimary: #000000;
+		--sliderPrimary: currentcolor;
 		--sliderSecondary: rgba(0, 0, 0, 0.05);
 		margin-top: 16px;
 	}

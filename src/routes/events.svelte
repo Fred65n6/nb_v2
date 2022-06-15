@@ -42,7 +42,7 @@
 								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
 							>
-								<path d="M5 0H0V5H5V0Z" fill="currentcolor" />
+								<path d="M5 0H0V5H5V0Z" fill="#EBD37F" />
 							</svg></Checkbox
 						>
 					</div>
@@ -92,7 +92,7 @@
 				preserveAspectRatio="xMidYMid meet"
 				viewBox="0 0 24 24"
 				><path
-					fill="black"
+					fill="currentcolor"
 					d="M15.125 21.1L6.7 12.7q-.15-.15-.212-.325q-.063-.175-.063-.375t.063-.375q.062-.175.212-.325l8.425-8.425q.35-.35.875-.35t.9.375q.375.375.375.875t-.375.875L9.55 12l7.35 7.35q.35.35.35.862q0 .513-.375.888t-.875.375q-.5 0-.875-.375Z"
 				/></svg
 			></button
@@ -109,7 +109,10 @@
 				height="25"
 				preserveAspectRatio="xMidYMid meet"
 				viewBox="0 0 24 24"
-				><path fill="black" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10Z" /></svg
+				><path
+					fill="currentcolor"
+					d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10Z"
+				/></svg
 			></button
 		>
 	</div>
@@ -535,7 +538,7 @@
 		margin-left: 0.5rem;
 		font-family: 'Josefin Sans', sans-serif;
 		display: flex;
-		border: var(--dropdown-button-border);
+		border: currentcolor;
 		width: var(--dropdown-button-width);
 		height: var(--dropdown-button-height);
 		cursor: pointer;
@@ -546,6 +549,7 @@
 	}
 
 	.dropdown-content {
+		color: black;
 		text-align: left;
 		display: none;
 		position: absolute;
