@@ -97,6 +97,13 @@
 </section>
 
 <style>
+	li {
+		color: black;
+	}
+
+	h3 {
+		color: black;
+	}
 	nav {
 		position: relative;
 		top: 0;
