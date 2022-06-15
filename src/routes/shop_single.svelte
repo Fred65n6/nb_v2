@@ -43,16 +43,16 @@
 </div>
 
 <main>
-	<section class="container">
-		<div class=""><img src="classic.webp" alt="Nørrebro Classic" /></div>
+	<section itemscope itemtype="https://schema.org/Product" class="container">
+		<div itemprop="image" class=""><img src="classic.webp" alt="Nørrebro Classic" /></div>
 
-		<div class="grid gap-8">
+		<div itemscope itemtype="https://schema.org/Product" class="grid gap-8">
 			<div class="grid gap-4">
-				<h1>Nørrebro Classic</h1>
-				<h3>Pilsner, 33cl, 4.6%</h3>
-				<h2>DKK 29,-</h2>
-				<div class="text-green-600">PÅ LAGER</div>
-				<p>
+				<h1 itemprop="name">Nørrebro Classic</h1>
+				<h3 itemprop="keywords">Pilsner, 33cl, 4.6%</h3>
+				<h2 itemprop="price">DKK 29,-</h2>
+				<div itemprop="InStock" class="text-green-600">PÅ LAGER</div>
+				<p itemprop="description">
 					Vores bud på en Classic. Skøn øl med ravgylden farve og dybde. Den perfekte “partner in
 					crime” til det kolde frokostbord eller bare som tørstslukker.
 				</p>
@@ -68,7 +68,7 @@
 		</div>
 	</section>
 
-	<section class="pt-12">
+	<section itemscope itemtype="https://schema.org/ProductGroup" class="pt-12">
 		<h3>relaterede varer</h3>
 		<div class="relaterede">
 			<button class="btn md:static md:pt-0 absolute left-12 pt-40"
