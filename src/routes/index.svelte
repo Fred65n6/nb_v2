@@ -9,25 +9,30 @@
 	import { afterNavigate } from '$app/navigation';
 	import { fade } from 'svelte/transition';
 
-	// hide by default
-	let visible = true;
+	// // hide by default
+	// let visible = true;
 
-	let duration;
+	// let duration;
 
-	afterNavigate(({ from }) => {
-		// only animate if the navigation came from outside the page
+	// afterNavigate(({ from }) => {
+	// 	// only animate if the navigation came from outside the page
 
-		// toggle visbility in any case
-		setTimeout(() => {
-			visible = false;
-		}, 3000);
-	});
+	// 	// toggle visbility in any case
+
+	// 	visible = false;
+	// });
+
+	let isPageLoaded = false;
+
+	const pageLoaded = () => {
+		isPageLoaded = true;
+	};
 </script>
 
 <Header />
 
-{#if visible}
-	<div class="scale-up-center loader">
+{#if !isPageLoaded}
+	<div class="scale-up-center loader" use:pageLoaded>
 		<h1 class="text-center -mb-12">Velkommen til <br /> Nørrebro BRyghus</h1>
 		<img class="rotate-center w-[300px]" src="spinner.svg" alt="preloader animation" />
 	</div>

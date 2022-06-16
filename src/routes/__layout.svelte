@@ -1,13 +1,14 @@
 <script>
 	import { query_selector_all } from 'svelte/internal';
-	import Toggle from './Darkmode.svelte';
+	// import Toggle from './Darkmode.svelte';
 	import '../app.css';
 	import Footer from './Footer.svelte';
 </script>
 
+<!-- 
 <div class="toggle">
 	<Toggle>Dark/light mode</Toggle>
-</div>
+</div> -->
 
 <main>
 	<slot />

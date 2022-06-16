@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	let active = false;
+	import Toggle from '../../routes/Darkmode.svelte';
 </script>
 
 <header>
@@ -46,6 +47,11 @@
 					/></svg
 				></a
 			>
+		</li>
+		<li>
+			<div class="toggle">
+				<Toggle>Dark/light mode</Toggle>
+			</div>
 		</li>
 	</ul>
 	<nav>
@@ -443,6 +449,11 @@
 							/></svg
 						></a
 					>
+				</div>
+				<div class="pt-2">
+					<div class="toggle">
+						<Toggle>Dark/light mode</Toggle>
+					</div>
 				</div>
 			</div>
 
