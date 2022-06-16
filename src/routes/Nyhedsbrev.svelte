@@ -63,7 +63,7 @@
 	}
 
 	.cookie {
-		position: absolute;
+		position: fixed;
 		left: 0;
 		right: 0;
 		margin-left: auto;
@@ -73,7 +73,7 @@
 	}
 
 	.container {
-		background-image: url('./shop_bg.svg');
+		background-image: url('../../static/shop_bg.svg');
 		background-size: auto;
 		background-position: top;
 	}
