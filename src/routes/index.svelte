@@ -127,8 +127,9 @@
 		z-index: 100;
 		background-color: white;
 		background-image: url('../../static/footer_bg.mobile.webp');
-		background-size: cover;
-		background-repeat: no-repeat;
+
+		background-size: auto;
+		background-position: center;
 	}
 
 	.right {
