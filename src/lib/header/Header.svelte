@@ -904,7 +904,7 @@
 
 	@media (max-width: 600px) {
 		.dropdown-content {
-			text-align: center;
+			text-align: left;
 		}
 	}
 
