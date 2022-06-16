@@ -126,9 +126,10 @@
 		place-items: center;
 		z-index: 100;
 		background-color: white;
-		background-image: url('../../static/footer_bg.mobile.webp');
+		background-image: url('../../static/footer_bg.svg');
+		background-image: url('footer_bg.svg');
 
-		background-size: auto;
+		background-size: cover;
 		background-position: center;
 	}
 
