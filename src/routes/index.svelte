@@ -7,6 +7,7 @@
 	import { page } from '$app/stores';
 	import Cookie from './Cookie_banner.svelte';
 	import Header from '$lib/header/Header.svelte';
+	import Nyhedsbrev from './Nyhedsbrev.svelte';
 
 	import { afterNavigate } from '$app/navigation';
 	import { fade } from 'svelte/transition';
@@ -19,6 +20,8 @@
 		}, 3000);
 	};
 </script>
+
+<Nyhedsbrev />
 
 <Header />
 

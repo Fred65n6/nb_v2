@@ -5,7 +5,7 @@
 
 <div class={current === 'cookie' ? 'selected' : ''} on:click={() => (current = 'cookie')}>
 	<div class="fixed w-full bottom-0 z-50 cookie">
-		<div class=" static p-8 mb-4 mr-8 bg-black/80 ">
+		<div class=" static p-4 mb-4 mr-8 bg-black/80 ">
 			<div class="md:flex md:justify-between md:items-center ">
 				<div class="md:w-full w-auto mb-4 lg:mb-0 mx-8">
 					<h3 class="mb-2 text-white">Vi bruger cookies</h3>
