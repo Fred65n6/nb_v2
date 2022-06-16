@@ -20,9 +20,9 @@
 	:global(body.dark) {
 		background-color: rgb(26, 28, 41);
 		color: white;
-		background-image: url('../../static/shop_bg.svg');
+		/* background-image: url('../../static/shop_bg.svg');
 		background-size: auto;
-		background-position: top;
+		background-position: top; */
 	}
 
 	:global(svg.dark) {
