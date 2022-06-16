@@ -11,6 +11,7 @@
 	let rangeValue = null;
 	import ButtonBlack from './Button_blacks.svelte';
 	import Header from '$lib/header/Header.svelte';
+	import Nyhedsbrev from './Nyhedsbrev.svelte';
 </script>
 
 <Header />
@@ -19,6 +20,8 @@
 	<title>Shop</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
+<Nyhedsbrev />
 
 <div class="w-[100vw] p-2 -mx-4 text-center bg-black/70 text-white">
 	<p class="gap-4 place-items-center flex justify-center">
