@@ -38,18 +38,4 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
-
-	.toggle {
-		display: flex;
-		justify-content: end;
-		padding-right: 1rem;
-	}
-
-	@media (max-width: 650px) {
-		.toggle {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
-	}
 </style>

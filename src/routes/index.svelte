@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	import Button from './Button_hero.svelte';
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
@@ -9,23 +11,12 @@
 	import { afterNavigate } from '$app/navigation';
 	import { fade } from 'svelte/transition';
 
-	// // hide by default
-	// let visible = true;
-
-	// let duration;
-
-	// afterNavigate(({ from }) => {
-	// 	// only animate if the navigation came from outside the page
-
-	// 	// toggle visbility in any case
-
-	// 	visible = false;
-	// });
-
 	let isPageLoaded = false;
 
 	const pageLoaded = () => {
-		isPageLoaded = true;
+		setTimeout(() => {
+			isPageLoaded = true;
+		}, 3000);
 	};
 </script>
 

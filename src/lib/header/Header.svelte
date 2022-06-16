@@ -751,10 +751,6 @@
 		list-style: none;
 	}
 
-	ul img {
-		width: 80px;
-	}
-
 	nav a {
 		display: flex;
 		height: 100%;
@@ -841,11 +837,6 @@
 	.menu__btn > span::after {
 		content: '';
 		top: 8px;
-	}
-
-	.hamburger-menu img {
-		width: 4rem;
-		padding-top: 0.5rem;
 	}
 
 	.hamburger-menu ul {
