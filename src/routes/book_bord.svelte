@@ -102,7 +102,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/aftenmenu.webp');
-		background-image: url('aftenmenu.webp');
+		/* background-image: url('aftenmenu.webp'); */
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -111,7 +111,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/frokostmenu.webp');
-		background-image: url('frokostmenu.webp');
+		/* background-image: url('frokostmenu.webp'); */
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -120,7 +120,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/olsortiment.webp');
-		background-image: url('olsortiment.webp');
+		/* background-image: url('olsortiment.webp'); */
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding: 1rem;

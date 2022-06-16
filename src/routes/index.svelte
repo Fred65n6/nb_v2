@@ -10,24 +10,24 @@
 	import { fade } from 'svelte/transition';
 
 	// hide by default
-	let visible = false;
+	let visible = true;
 
 	let duration;
 
 	afterNavigate(({ from }) => {
 		// only animate if the navigation came from outside the page
-		duration = from === null ? 600 : 0;
+
 		// toggle visbility in any case
-		visible = true;
+		visible = false;
 	});
 </script>
 
 <Header />
 
-{#if !visible}
-	<div class="scale-up-center loader" in:fade={{ duration }}>
+{#if visible}
+	<div class="scale-up-center loader">
 		<h1 class="text-center -mb-12">Velkommen til <br /> Nørrebro BRyghus</h1>
-		<img src="blomster4.gif" alt="preloader animation" />
+		<img class="rotate-center w-[300px]" src="spinner.svg" alt="preloader animation" />
 	</div>
 {/if}
 
@@ -128,6 +128,7 @@
 		place-items: center;
 		z-index: 100;
 		background-color: white;
+		background-image: url('footer_bg.mobile.webp');
 	}
 
 	.right {
@@ -141,7 +142,7 @@
 		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
-		background-image: url('shrimp.mobile.webp');
+		/* background-image: url('shrimp.mobile.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -150,7 +151,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/bundle_4.webp');
-		background-image: url('bundle_4.webp');
+		/* background-image: url('bundle_4.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -159,7 +160,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		background-image: url('event.webp');
+		/* background-image: url('event.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -197,7 +198,7 @@
 			height: 40rem;
 			width: 100%;
 			background-image: url('../../static/red_bg.svg');
-			background-image: url('red_bg.svg');
+			/* background-image: url('red_bg.svg'); */
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
@@ -209,12 +210,12 @@
 		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			background-image: url('bundle_3.mobile.webp');
+			/* background-image: url('bundle_3.mobile.webp'); */
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			background-image: url('event.mobile.webp');
+			/* background-image: url('event.mobile.webp'); */
 		}
 
 		.top {
@@ -229,7 +230,7 @@
 			text-align: center;
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			background-image: url('red_bg.mobile.svg');
+			/* background-image: url('red_bg.mobile.svg'); */
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
