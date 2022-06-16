@@ -117,6 +117,7 @@
 	}
 
 	.loader {
+		color: black;
 		position: fixed;
 		top: 0;
 		right: 0;

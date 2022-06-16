@@ -183,8 +183,8 @@
 
 				<li class:active={$page.url.pathname === '/'}>
 					<div class="dropdown">
-						<a href="/" class="dropbtn"
-							>MENU <svg
+						<div class="dropbtn">
+							MENU <svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								aria-hidden="true"
@@ -195,8 +195,8 @@
 								preserveAspectRatio="xMidYMid meet"
 								viewBox="0 0 24 24"
 								><path fill="currentcolor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
-							></a
-						>
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="frokostmenu">FROKOSTMENU</a>
 							<a sveltekit:prefetch href="aftenmenu">AFTENMENU</a>
@@ -205,7 +205,7 @@
 					</div>
 				</li>
 
-				<li class:active={$page.url.pathname === 'book_bord'} on:click={() => (active = !active)}>
+				<li class:active={$page.url.pathname === 'book_bord'}>
 					<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
 				</li>
 
@@ -782,6 +782,10 @@
 		text-decoration: underline;
 	}
 
+	a:active {
+		text-decoration: underline;
+	}
+
 	#menu__toggle {
 		opacity: 0;
 	}
@@ -912,7 +916,7 @@
 	}
 
 	.menu__btn {
-		top: 40px;
+		top: 35px;
 	}
 
 	.dropdown-content a:hover {
