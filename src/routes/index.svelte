@@ -18,7 +18,9 @@
 		// only animate if the navigation came from outside the page
 
 		// toggle visbility in any case
-		visible = false;
+		setTimeout(() => {
+			visible = false;
+		}, 3000);
 	});
 </script>
 
