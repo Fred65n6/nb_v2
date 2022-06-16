@@ -48,7 +48,7 @@
 	</p>
 </div>
 
-<nav class="flex md:ml-8 pt-4 -mb-4" aria-label="Breadcrumb">
+<nav class="flex md:ml-8  ml-4 pt-4 -mb-4" aria-label="Breadcrumb">
 	<ol class="inline-flex items-center space-x-1 md:space-x-3">
 		<li class="inline-flex items-center">
 			<a
@@ -89,6 +89,7 @@
 		</li>
 	</ol>
 </nav>
+
 <main>
 	<div class="knapper">
 		<ul>
