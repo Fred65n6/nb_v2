@@ -3,9 +3,9 @@
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import Event_card from './Event_cards.svelte';
-	import Modal_smag, { getModalSmag } from './Modal_smag.svelte';
-	import Modal_dj, { getModalDj } from './Modal_dj.svelte';
-	import Modal_by, { getModalBy } from './Modal_byen.svelte';
+	import Modal_smag, { getModalSmag } from './Popup_smag.svelte';
+	import Modal_dj, { getModalDj } from './Popup_dj.svelte';
+	import Modal_by, { getModalBy } from './Popup_by.svelte';
 	import { page } from '$app/stores';
 	import Checkbox from './Checkbox.svelte';
 	import Header from '$lib/header/Header.svelte';

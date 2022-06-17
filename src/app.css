@@ -99,17 +99,7 @@
 		}
 	}
 
-	.loader {
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		bottom: 0;
-		display: grid;
-		place-items: center;
-		z-index: 100;
-		background-color: var(--default-bg-white);
-	}
+	/*******ANIMATIONER******/
 
 	.scale-up-center {
 		-webkit-animation: scale-up-center 4.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;

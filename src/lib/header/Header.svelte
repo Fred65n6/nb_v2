@@ -206,7 +206,7 @@
 				</li>
 
 				<li class:active={$page.url.pathname === 'book_bord'}>
-					<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
+					<div class="dropdown"><a sveltekit:prefetch href="book_bord">BOOK BORD</a></div>
 				</li>
 
 				<li>
