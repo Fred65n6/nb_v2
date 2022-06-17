@@ -47,7 +47,7 @@
 		<li class="inline-flex items-center">
 			<a
 				href="/"
-				class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+				class="inline-flex items-center text-sm font-medium text-gray-700 hover:underline dark:text-gray-400 dark:hover:underline"
 			>
 				<svg
 					class="mr-2 w-4 h-4"
@@ -76,7 +76,7 @@
 				>
 				<a
 					href="shop"
-					class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white"
+					class="ml-1 text-sm font-medium text-gray-700 hover:underline md:ml-2 dark:text-gray-400 dark:hover:underline"
 					>Shop</a
 				>
 			</div>
@@ -96,7 +96,7 @@
 				>
 				<a
 					href="/"
-					class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2 dark:text-gray-400 dark:hover:text-white"
+					class="ml-1 text-sm font-medium text-gray-700 hover:underline md:ml-2 dark:text-gray-400 dark:hover:underline"
 					>Nørrebro classic</a
 				>
 			</div>
