@@ -143,32 +143,32 @@
 	}
 
 	.card_1 {
-		width: var(--card-width);
-		height: var(--card-height);
+		width: var(--book-card-width);
+		height: var(--book-card-height);
 		background-image: url('../../static/aftenmenu.webp');
 		/* background-image: url('aftenmenu.webp'); */
 		background-size: contain;
-		padding: var(--card-padding);
-		padding-top: var(--card-p-padding-top);
+		padding: var(--book-card-padding);
+		padding-top: var(--book-card-p-padding-top);
 	}
 	.card_2 {
-		width: var(--card-width);
-		height: var(--card-height);
+		width: var(--book-card-width);
+		height: var(--book-card-height);
 		background-image: url('../../static/frokostmenu.webp');
 		/* background-image: url('frokostmenu.webp'); */
 		background-size: contain;
-		padding: var(--card-padding);
-		padding-top: var(--card-p-padding-top);
+		padding: var(--book-card-padding);
+		padding-top: var(--book-card-p-padding-top);
 	}
 	.card_3 {
-		width: var(--card-width);
-		height: var(--card-height);
+		width: var(--book-card-width);
+		height: var(--book-card-height);
 		background-image: url('../../static/olsortiment.webp');
 		/* background-image: url('olsortiment.webp'); */
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding: var(--card-padding);
-		padding-top: var(--card-p-padding-top);
+		padding: var(--book-card-padding);
+		padding-top: var(--book-card-p-padding-top);
 	}
 
 	.menuer {
