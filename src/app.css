@@ -42,7 +42,7 @@
 		--close-button-right: -12px;
 		--close-button-width: 24px;
 		--close-button-height: 24px;
-		--close-button-color: rgb(159, 42, 42); 
+		--close-button-color: #888888;
 		--close-button-transform: transform 0.3s;
 	}
 	section {
@@ -78,7 +78,7 @@
 	}
 
 	p {
-		font-family: 'Open Sans', sans-serif;;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 1rem;
 	}
 
