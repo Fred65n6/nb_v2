@@ -34,7 +34,7 @@
 
 			<div class="grid place-items-center">
 				<h3 class="text-center  text-black">Tilmeld dig vores nyhedsbrev</h3>
-				<p class="text-center pb-8 text-black">Og få eklusive tilbud direkte ind på din mail</p>
+				<p class="text-center pb-8 text-black">Og få eklusive tilbud direkte ind på din mail!</p>
 				<div class="md:flex grid gap-4 pt-4">
 					<input
 						class="h-[45px] w-[220px] border-2 p-2"
