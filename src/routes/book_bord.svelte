@@ -29,8 +29,8 @@
 		<div class="mobil_img"><img src="book_bord.mobile.webp" alt="mad fra nørrebro bryghus" /></div>
 		<div class="">
 			<div class=" grid place-items-center gap-2 pt-12">
-				<h1 class="text-white">Book bord her</h1>
-				<p class="text-white -mt-4 mb-4">Få din næste oplevelse hos os</p>
+				<h1>Book bord her</h1>
+				<p class="-mt-4 mb-4">Få din næste oplevelse hos os</p>
 				<div class="hidden"><ProgressBar {steps} bind:currentActive bind:this={progressBar} /></div>
 
 				<Form active_step={steps[currentActive - 1]} />
@@ -74,8 +74,10 @@
 </section>
 
 <style>
+	h1, h2, p {
+		color: var(--text-white);
+	}
 	.main {
-		font-family: 'Muli', sans-serif;
 		display: grid;
 		overflow: hidden;
 		margin: 0 auto;
@@ -99,36 +101,36 @@
 	}
 
 	.card_1 {
-		width: 28rem;
-		height: 28rem;
+		width: var(--card-width);
+		height: var(--card-height);
 		background-image: url('../../static/aftenmenu.webp');
 		background-image: url('aftenmenu.webp');
 		background-size: contain;
-		padding: 1rem;
-		padding-top: 15rem;
+		padding: var(--card-padding);
+		padding-top: var(--card-p-padding-top);
 	}
 	.card_2 {
-		width: 28rem;
-		height: 28rem;
+		width: var(--card-width);
+		height: var(--card-height);
 		background-image: url('../../static/frokostmenu.webp');
 		background-image: url('frokostmenu.webp');
 		background-size: contain;
-		padding: 1rem;
-		padding-top: 15rem;
+		padding: var(--card-padding);
+		padding-top: var(--card-p-padding-top);
 	}
 	.card_3 {
-		width: 28rem;
-		height: 28rem;
+		width: var(--card-width);
+		height: var(--card-height);
 		background-image: url('../../static/olsortiment.webp');
 		background-image: url('olsortiment.webp');
 		background-size: contain;
 		background-repeat: no-repeat;
-		padding: 1rem;
-		padding-top: 15rem;
+		padding: var(--card-padding);
+		padding-top: var(--card-p-padding-top);
 	}
 
 	.menuer {
-		padding-top: 3rem;
+		padding-top: var(--section-general-padding);
 	}
 
 	@media (max-width: 400px) {
@@ -138,13 +140,6 @@
 			place-items: center;
 		}
 
-		.card_1,
-		.card_2,
-		.card_3 {
-			width: 18em;
-			height: 18em;
-			padding-top: 8rem;
-		}
 
 		.mobil_img {
 			width: 18em;

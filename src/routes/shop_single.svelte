@@ -58,7 +58,7 @@
 				</p>
 			</div>
 			<div class="flex gap-4 count">
-				<div class="">
+				<div class="flex gap-1">
 					<button class="font-xl" on:click={() => (count -= 1)}>-</button>
 					<span class="bg-white px-4 border-2">{count}</span>
 					<button on:click={() => (count += 1)}>+</button>

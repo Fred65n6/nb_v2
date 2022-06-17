@@ -18,11 +18,11 @@
 <style>
 	:global(body.dark) {
 		background-color: rgb(26, 28, 41);
-		color: white;
+		color: var(--text-white);
 	}
 
 	:global(svg.dark) {
-		color: white;
+		color: var(--text-white);
 	}
 
 	main {

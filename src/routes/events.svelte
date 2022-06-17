@@ -457,7 +457,7 @@
 
 <style>
 	.heading {
-		padding-top: 3rem;
+		padding-top: var(--section-general-padding);
 		text-align: center;
 	}
 
@@ -493,15 +493,15 @@
 	}
 
 	.dj {
-		background-color: var(--dj-event-bg);
+		background-color: #6e0b20;
 	}
 
 	.smag {
-		background-color: var(--olsmagning-event-bg);
+		background-color: #ebd37f;
 	}
 
 	.by {
-		background-color: var(--byvandring-event-bg);
+		background-color: #abccd8;
 	}
 
 	.kalender {
@@ -549,11 +549,11 @@
 	}
 
 	.dropdown-content {
-		color: black;
+		color: var(--text-black);
 		text-align: left;
 		display: none;
 		position: absolute;
-		background-color: var(--default-white);
+		background-color: var(--default-bg-white);
 		width: 200px;
 		z-index: 1;
 	}

@@ -14,7 +14,7 @@
 	}
 
 	.btn {
-		border: white 2px;
+		border: var(--border-style-white);
 		border-style: solid;
 		font-family: var(--heading-and-button-font);
 		background-color: var(--button-bg-opacity);
@@ -23,11 +23,11 @@
 		display: inline-block;
 		padding-inline: 0.8rem;
 		padding-block: 0.1rem;
-		font-size: 1rem;
-		line-height: 45px;
+		font-size: var(--button-font-size);
+		line-height: var(--button-line-height);
 		text-align: center;
 		text-transform: uppercase;
-		color: white;
+		color: var(--text-white);
 		cursor: pointer;
 		overflow: hidden;
 		transition: 1s;

@@ -22,13 +22,13 @@
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
-		width: 166px;
-		height: 45px;
-		font-size: 1rem;
-		line-height: 45px;
+		width: var(--button-width);
+		height: var(--button-height);
+		font-size: var(--button-font-size);
+		line-height: var(--button-line-height);
 		text-align: center;
 		text-transform: uppercase;
-		color: var(--default-white);
+		color: var(--text-white);
 		cursor: pointer;
 		overflow: hidden;
 		transition: 1s;

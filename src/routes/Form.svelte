@@ -113,6 +113,6 @@
 	}
 
 	p {
-		color: var(--default-white);
+		color: var(--text-white);
 	}
 </style>

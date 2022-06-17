@@ -98,11 +98,11 @@
 
 <style>
 	li {
-		color: black;
+		color: var(--text-black);
 	}
 
 	h3 {
-		color: black;
+		color: var(--text-black);
 	}
 	nav {
 		position: relative;
@@ -111,9 +111,9 @@
 		height: auto;
 		width: 16em;
 		padding: 2rem 1rem 0.6rem;
-		background: #fff;
+		background: var(--default-bg-white);
 		z-index: 100;
-		border: black 2px;
+		border: var(--border-color-black);
 		border-style: solid;
 		text-align: left;
 	}

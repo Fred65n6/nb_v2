@@ -126,7 +126,7 @@
 		display: grid;
 		place-items: center;
 		z-index: 100;
-		background-color: white;
+		background-color: var(--default-bg-white);
 	}
 
 	.right {
@@ -176,7 +176,7 @@
 
 	.menu p,
 	h2 {
-		color: var(--default-white);
+		color: var(--text-white);
 	}
 
 	.menu img {

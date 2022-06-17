@@ -82,18 +82,16 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: #4448;
+		background: var(--bg-event-modal-color);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	#modal {
-		max-width: 500px;
+		max-width: var(--modal-max-width);
 		position: relative;
-		border-radius: 6px;
-		background: white;
-		border: 2px solid #000;
-		filter: drop-shadow(5px 5px 5px #555);
+		background: var(--default-bg-white);
+		filter: var(--modal-drop-shadow);
 	}
 
 	.visible {
@@ -102,13 +100,13 @@
 
 	#close {
 		position: absolute;
-		top: -12px;
-		right: -12px;
-		width: 24px;
-		height: 24px;
+		top: var(--close-button-top);
+		right: var(--close-button-right);
+		width: var(--close-button-width);
+		height: var(--close-button-height);
 		cursor: pointer;
-		fill: #f44;
-		transition: transform 0.3s;
+		fill: var(--close-button-color);
+		transition: var(--close-button-transform);
 	}
 
 	#close:hover {
@@ -120,7 +118,7 @@
 		stroke-width: 2;
 	}
 	#modal-content {
-		color: black;
+		color: var(--text-black);
 		max-width: calc(100vw - 20px);
 		max-height: calc(100vh - 20px);
 		overflow: auto;

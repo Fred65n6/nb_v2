@@ -58,7 +58,7 @@
 
 	.progress-container::before {
 		content: '';
-		background-color: #ffffff;
+		background-color: var(--default-bg-white);
 		position: absolute;
 		top: 50%;
 		left: 0;
@@ -69,7 +69,7 @@
 	}
 
 	.progress {
-		background-color: black;
+		background-color: var(--default-bg-black);
 		position: absolute;
 		top: 50%;
 		left: 0;
@@ -81,7 +81,7 @@
 	}
 
 	.circle {
-		background-color: #fff;
+		background-color: var(--default-bg-white);
 		color: rgb(11, 11, 11);
 		border-radius: 50%;
 		height: 30px;
@@ -89,7 +89,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 3px solid #ffffff;
+		border: 3px solid var(--border-color-white);
 		transition: 0.4s ease;
 		cursor: pointer;
 	}
