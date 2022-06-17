@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	let active = false;
+	import Toggle from '../../routes/Darkmode.svelte';
 </script>
 
 <header>
@@ -46,6 +47,11 @@
 					/></svg
 				></a
 			>
+		</li>
+		<li>
+			<div class="toggle">
+				<Toggle>Dark/light mode</Toggle>
+			</div>
 		</li>
 	</ul>
 	<nav>
@@ -177,8 +183,8 @@
 
 				<li class:active={$page.url.pathname === '/'}>
 					<div class="dropdown">
-						<a href="/" class="dropbtn"
-							>MENU <svg
+						<div class="dropbtn">
+							MENU <svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								aria-hidden="true"
@@ -189,8 +195,8 @@
 								preserveAspectRatio="xMidYMid meet"
 								viewBox="0 0 24 24"
 								><path fill="currentcolor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
-							></a
-						>
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="frokostmenu">FROKOSTMENU</a>
 							<a sveltekit:prefetch href="aftenmenu">AFTENMENU</a>
@@ -199,7 +205,7 @@
 					</div>
 				</li>
 
-				<li class:active={$page.url.pathname === 'book_bord'} on:click={() => (active = !active)}>
+				<li class:active={$page.url.pathname === 'book_bord'}>
 					<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
 				</li>
 
@@ -443,6 +449,11 @@
 							/></svg
 						></a
 					>
+				</div>
+				<div class="pt-2">
+					<div class="toggle">
+						<Toggle>Dark/light mode</Toggle>
+					</div>
 				</div>
 			</div>
 
@@ -740,10 +751,6 @@
 		list-style: none;
 	}
 
-	ul img {
-		width: 80px;
-	}
-
 	nav a {
 		display: flex;
 		height: 100%;
@@ -772,6 +779,10 @@
 	}
 
 	a:hover {
+		text-decoration: underline;
+	}
+
+	a:active {
 		text-decoration: underline;
 	}
 
@@ -830,11 +841,6 @@
 	.menu__btn > span::after {
 		content: '';
 		top: 8px;
-	}
-
-	.hamburger-menu img {
-		width: 4rem;
-		padding-top: 0.5rem;
 	}
 
 	.hamburger-menu ul {
@@ -898,7 +904,7 @@
 
 	@media (max-width: 600px) {
 		.dropdown-content {
-			text-align: center;
+			text-align: left;
 		}
 	}
 
@@ -910,7 +916,7 @@
 	}
 
 	.menu__btn {
-		top: 40px;
+		top: 35px;
 	}
 
 	.dropdown-content a:hover {

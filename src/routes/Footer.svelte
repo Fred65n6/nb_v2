@@ -213,9 +213,9 @@
 		margin-top: 2rem;
 		padding-bottom: 10rem;
 		padding-inline: 3rem;
-		background-image: url('../../static/footer_bg.mobile.webp');
-		/* background-image: url('footer_bg.mobile.webp'); */
-		background-size: cover;
+		background-image: url('../../static/footer_bg_mobile.svg');
+		/* background-image: url('footer_bg_mobile.svg'); */
+		background-size: auto;
 		background-repeat: no-repeat;
 	}
 
@@ -241,8 +241,8 @@
 		}
 		/*  */
 		footer {
-			background-image: url('../../static/footer_bg.webp');
-			/* background-image: url('footer_bg.webp'); */
+			background-image: url('../../static/footer_bg.svg');
+			/* background-image: url('footer_bg.svg'); */
 			background-size: 100%;
 			padding-inline: 7rem;
 			padding-top: 9rem;

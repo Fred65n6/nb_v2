@@ -1,13 +1,14 @@
 <script>
 	import { query_selector_all } from 'svelte/internal';
-	import Toggle from './Darkmode.svelte';
+	// import Toggle from './Darkmode.svelte';
 	import '../app.css';
 	import Footer from './Footer.svelte';
 </script>
 
+<!-- 
 <div class="toggle">
 	<Toggle>Dark/light mode</Toggle>
-</div>
+</div> -->
 
 <main>
 	<slot />
@@ -33,19 +34,5 @@
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
-	}
-
-	.toggle {
-		display: flex;
-		justify-content: end;
-		padding-right: 1rem;
-	}
-
-	@media (max-width: 650px) {
-		.toggle {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
 	}
 </style>
