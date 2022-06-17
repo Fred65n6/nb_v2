@@ -129,9 +129,8 @@
 		display: grid;
 		place-items: center;
 		z-index: 100;
-		background-color: var(--default-bg-white);
+		background-color: var(--generel-bg-white);
 		background-image: url('../../static/footer_bg.svg');
-		/* background-image: url('footer_bg.svg'); */
 		background-size: cover;
 		background-position: center;
 	}

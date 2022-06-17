@@ -82,16 +82,16 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: var(--bg-event-modal-color);
+		background: var(--event-popup-bg-color);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	#modal {
-		max-width: var(--modal-max-width);
+		max-width: var(--event-popup-max-width);
 		position: relative;
-		background: var(--default-bg-white);
-		filter: var(--modal-drop-shadow);
+		background: var(--generel-bg-white);
+		filter: var(--event-popup-drop-shadow);
 	}
 
 	.visible {

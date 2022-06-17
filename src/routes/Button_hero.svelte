@@ -39,7 +39,7 @@
 		left: 0;
 	}
 	.btn svg rect {
-		stroke: var(--default-white);
+		stroke: var(--button-stroke-white);
 		stroke-width: 3;
 		stroke-dasharray: 422, 0;
 		stroke-dashoffset: 0;
@@ -52,7 +52,7 @@
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
 		transition: 1s;
-		stroke: var(--default-white);
+		stroke: var(--button-stroke-white);
 		background-color: none;
 	}
 
