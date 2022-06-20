@@ -111,7 +111,7 @@
 		height: auto;
 		width: 16em;
 		padding: 2rem 1rem 0.6rem;
-		background: var(--default-bg-white);
+		background: var(--generel-bg-white);
 		z-index: 100;
 		border: var(--border-color-black);
 		border-style: solid;

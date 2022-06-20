@@ -3,47 +3,45 @@
 @tailwind utilities;
 @layer base {
 	:root {
-		/* colors */
+		/* colors - GLOBAL TOKENS */
 		--bg-color: #f6f6f6;
-		--default-black: black;
-		--default-white: white;
-		--default-bg-white: white;
-		--default-bg-black: black;
+		--generel-bg-white: white;
 		--text-white: white;
 		--text-black: black;
 
 		/* fonts */
-		--heading-and-button-font: 'Josefin Sans', sans-serif;
+		--heading-and-button-font: 'Josefin Sans', sans-serif;		
 
-		/* font-sizes */
-		--button-font-size: 1rem;
-
-		/* general button styling */
+		/* button styling - ALIAS TOKENS */
 		--button-bg-opacity: rgba(0, 0, 0, 0.525);
 		--button-width: 166px;
 		--button-height: 45px;
 		--border-style-white: 2px solid white;
 		--border-style-black: 2px solid black;
 		--button-line-height: 45px;
-		--section-general-padding: 3rem;
+		--button-font-size: 1rem;
+		--button-stroke-white: white;
 
-		/* Book Card styling */
-		--book-card-height: 28rem;
-		--book-card-width: 28rem;
-		--book-card-padding: 1rem;
-		--book-card-p-padding-top: 15rem;
+		/* CTA menucard styling */
+		--cta-menucard-height: 28rem;
+		--cta-menucard-width: 28rem;
+		--cta-menucard-padding: 1rem;
+		--cta-menucard-p-padding-top: 15rem;
 
-		/* Modal Card styling */
-		--bg-event-modal-color: #4448;
-		--modal-max-width: 500px;
-		--modal-border-radius: 6px;
-		--modal-drop-shadow: drop-shadow(5px 5px 5px #555);
+		/* Popup Card styling */
+		--event-popup-bg-color: #4448;
+		--event-popup-max-width: 500px;
+		--event-popup-drop-shadow: drop-shadow(5px 5px 5px #555);
 		--close-button-top: -12px;
 		--close-button-right: -12px;
 		--close-button-width: 24px;
 		--close-button-height: 24px;
 		--close-button-color: #888888;
 		--close-button-transform: transform 0.3s;
+
+		/* generel styling */
+		--section-general-padding: 3rem;
+
 	}
 	section {
 		display: grid;
@@ -99,7 +97,17 @@
 		}
 	}
 
-	/*******ANIMATIONER******/
+	.loader {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		display: grid;
+		place-items: center;
+		z-index: 100;
+		background-color: var(--default-bg-white);
+	}
 
 	.scale-up-center {
 		-webkit-animation: scale-up-center 4.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;

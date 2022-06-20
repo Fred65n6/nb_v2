@@ -595,7 +595,7 @@
 		text-align: left;
 		display: none;
 		position: absolute;
-		background-color: var(--default-bg-white);
+		background-color: var(--generel-bg-white);
 		width: 200px;
 		z-index: 1;
 	}

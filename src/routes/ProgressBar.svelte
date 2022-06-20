@@ -58,7 +58,7 @@
 
 	.progress-container::before {
 		content: '';
-		background-color: var(--default-bg-white);
+		background-color: var(--generel-bg-white);
 		position: absolute;
 		top: 50%;
 		left: 0;
@@ -69,7 +69,7 @@
 	}
 
 	.progress {
-		background-color: var(--default-bg-black);
+		background-color: black;
 		position: absolute;
 		top: 50%;
 		left: 0;
@@ -81,7 +81,7 @@
 	}
 
 	.circle {
-		background-color: var(--default-bg-white);
+		background-color: var(--generel-bg-white);
 		color: rgb(11, 11, 11);
 		border-radius: 50%;
 		height: 30px;
