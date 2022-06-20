@@ -17,7 +17,7 @@
 	const pageLoaded = () => {
 		setTimeout(() => {
 			isPageLoaded = true;
-		}, 3000);
+		}, 4500);
 	};
 </script>
 
@@ -27,7 +27,9 @@
 
 {#if !isPageLoaded}
 	<div class="scale-up-center loader" use:pageLoaded>
-		<h1 class="text-center -mb-12">Velkommen til <br /> Nørrebro BRyghus</h1>
+		<div class=" tracking-in-expand">
+			<h1 class="text-center -mb-12">Velkommen til <br /> Nørrebro BRyghus</h1>
+		</div>
 		<img class="rotate-center w-[300px]" src="spinner.svg" alt="preloader animation" />
 	</div>
 {/if}
