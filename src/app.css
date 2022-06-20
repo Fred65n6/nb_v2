@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
 	:root {
-		/* colors - GLOBAL TOKENS */
+		/* colors */
 		--bg-color: #f6f6f6;
 		--generel-bg-white: white;
 		--text-white: white;
@@ -12,7 +12,7 @@
 		/* fonts */
 		--heading-and-button-font: 'Josefin Sans', sans-serif;		
 
-		/* button styling - ALIAS TOKENS */
+		/* button styling */
 		--button-bg-opacity: rgba(0, 0, 0, 0.525);
 		--button-width: 166px;
 		--button-height: 45px;
@@ -41,7 +41,6 @@
 
 		/* generel styling */
 		--section-general-padding: 3rem;
-
 	}
 	section {
 		display: grid;
