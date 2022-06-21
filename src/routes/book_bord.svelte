@@ -66,7 +66,7 @@
 </section>
 
 <section class="main">
-	<div class="book grid md:grid-cols-2">
+	<div class="book grid md:grid-cols-2 mr-10">
 		<div class="image">
 			<img src="book_bord.webp" alt="mad fra nørrebrobryghus" />
 		</div>
@@ -207,8 +207,8 @@
 		}
 
 		.image {
-			width: 55rem;
-			transform: scaleX(-1);
+			width: 45rem;
+			transform: scaleX(-1) scaleY(-1);
 		}
 
 		.mobil_img {
