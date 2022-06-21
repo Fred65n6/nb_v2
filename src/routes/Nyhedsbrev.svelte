@@ -6,7 +6,7 @@
 
 <div class={current === 'cookie' ? 'selected' : ''} on:click={() => (current = 'cookie')}>
 	<div class="scale-in-ver-bottom md:w-[60rem] w-[25rem]  z-50 cookie">
-		<div class="container py-12 px-8 mr-8 bg-slate-100 shadow-2xl ">
+		<div class="container py-12 px-8 mr-8 bg-slate-200 shadow-2xl ">
 			<div class="flex place-content-end pb-8">
 				<button
 					class={current === 'cookie' ? 'selected' : ''}
