@@ -66,7 +66,7 @@
 </section>
 
 <section class="main">
-	<div class="book grid md:grid-cols-2 mr-10">
+	<div class="book grid md:grid-cols-2 mr-5">
 		<div class="image">
 			<img src="book_bord.webp" alt="mad fra nørrebrobryghus" />
 		</div>
