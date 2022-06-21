@@ -113,7 +113,7 @@
 				<h1 itemprop="name">Nørrebro Classic</h1>
 				<h3 itemprop="keywords">Pilsner, 33cl, 4.6%</h3>
 				<h2 itemprop="price">DKK 29,-</h2>
-				<div itemprop="InStock" class="text-green-600">PÅ LAGER</div>
+				<div itemprop="InStock" class="text-red-500">FÅ PÅ LAGER</div>
 				<p itemprop="description">
 					Vores bud på en Classic. Skøn øl med ravgylden farve og dybde. Den perfekte “partner in
 					crime” til det kolde frokostbord eller bare som tørstslukker.
